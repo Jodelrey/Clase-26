@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://curiosoando.com/wp-content/uploads/2015/05/cielo_azul.jpg);
+    background-size: 100%;
+    
+    img{
+        width: 50px;
+        position: fixed;
+        bottom: -150px;
+        animation-name: balloonUp, balloonSides;
+        animation-duration:10s,3s;
+        animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;  
+        img{
+            width: 50px;
+        }
+
+        
+    }
+
+}
+
+@keyframes balloonUp{
+    0%{
+        bottom:-10%
+    }
+    50%{
+        
+        width: 40px;
+        
+    }
+    60%{
+        
+        width: 35px;
+        
+    }
+    70%{
+        
+        width: 30px;
+        
+    }
+    80%{        
+        width: 25px;
+        
+    }
+    100%{
+        width: 20px;
+        bottom:100%
+    }
+}
+@keyframes balloonSides{
+    0%{
+        transform:translateX(0px)
+        }
+        50%{
+           transform:translateX(80px)
+        }
+        100%{
+           transform:translateX(0px)
+        }
+    }
+    
+    img:nth-of-type(1){
+        left: 20%;
+        animation-delay: 1s, 1s;
+    }
+    img:nth-of-type(2){
+        left: 40%;
+        animation-delay: 3s, 2s;
+    }
+    img:nth-of-type(3){
+        left: 50%;
+        animation-delay: 5s, 6s;
+    }
+    img:nth-of-type(4){
+        left: 60%;
+        animation-delay: 8s, 7s;
+    }
+    img:nth-of-type(5){
+        left: 70%;
+        animation-delay: 2s, 3s;
+    }
+    img:nth-of-type(6){
+        left: 80%;
+        animation-delay: 1s, 1s;
+    }
+    img:nth-of-type(7){
+        left: 90%;
+        animation-delay: 5s, 2s;
+    }
+    
