@@ -36,7 +36,7 @@ body {
   0% {
     transform: translateX(0px); }
   50% {
-    transform: translateX(80px); }
+    transform: translateX(100px); }
   100% {
     transform: translateX(0px); } }
 img:nth-of-type(1) {
