@@ -61,10 +61,10 @@ img:nth-of-type(5) {
 
 img:nth-of-type(6) {
   left: 80%;
-  animation-delay: 1s, 1s; }
+  animation-delay: 4s, 5s; }
 
 img:nth-of-type(7) {
   left: 90%;
-  animation-delay: 5s, 2s; }
+  animation-delay: 5s, 4s; }
 
 /*# sourceMappingURL=main.css.map */

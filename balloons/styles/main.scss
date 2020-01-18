@@ -13,7 +13,7 @@ body{
         position: fixed;
         bottom: -150px;
         animation-name: balloonUp, balloonSides;
-        animation-duration:12s,5s;
+        animation-duration:10s,3s;
         animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;  
         img{
             width: 50px;
@@ -56,12 +56,11 @@ body{
     0%{
         transform:translateX(0px)
         }
-        25%{
-           transform:translateX(100px)
-        }
+        
         50%{
-            transform: translateX(-50px)
+            transform: translateX(100px)
         }
+        
         100%{
            transform:translateX(0px)
         }
@@ -89,10 +88,10 @@ body{
     }
     img:nth-of-type(6){
         left: 80%;
-        animation-delay: 1s, 1s;
+        animation-delay: 4s, 5s;
     }
     img:nth-of-type(7){
         left: 90%;
-        animation-delay: 5s, 2s;
+        animation-delay: 5s, 4s;
     }
     
