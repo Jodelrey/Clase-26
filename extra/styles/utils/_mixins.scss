@@ -1,0 +1,8 @@
+@mixin sequentialDelay ($elem, $difDelay, $initialDelay: 0){
+    @for $i from 1 through $elem {       
+        &:nth-child(#{$i}){
+            animation-delay: #{$initialDelay + $difDelay*($i - 1)}s;
+        }
+
+    }
+}

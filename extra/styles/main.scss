@@ -1,0 +1,5 @@
+@import "utils/mixins";
+
+.box{
+    @include sequentialDelay(4, 0.5, 1);
+}

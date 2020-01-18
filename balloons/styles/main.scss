@@ -13,7 +13,7 @@ body{
         position: fixed;
         bottom: -150px;
         animation-name: balloonUp, balloonSides;
-        animation-duration:10s,3s;
+        animation-duration:12s,5s;
         animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;  
         img{
             width: 50px;
@@ -56,8 +56,11 @@ body{
     0%{
         transform:translateX(0px)
         }
-        50%{
+        25%{
            transform:translateX(100px)
+        }
+        50%{
+            transform: translateX(-50px)
         }
         100%{
            transform:translateX(0px)
